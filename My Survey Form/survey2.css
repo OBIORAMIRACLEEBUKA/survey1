@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(IMAGE/thank-you-sign.webp);
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(57, 179, 250, 0.7);
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+}
+h1{
+    width: 100%;
+    font-size: 70px;
+    margin-top: 5%;
+    text-align: center;
+}

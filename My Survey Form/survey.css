@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(IMAGE/forex.jpg);
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    background-color: rgba(57, 179, 250, 0.7);
+    background-blend-mode: multiply;
+    font-size: 1.1em;
+    font-family: 'Poppins' , sans-serif;
+    margin-bottom: 10%;
+    margin-top: -3%;
+}
+.col-1 img{
+    border-radius: 600px;
+    border: 2px solid white;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+#sub-heading{
+    padding-top: 100px;
+    font-size: 50px;
+    color: white;
+}
+
+#subheading{
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+.heading{
+
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: auto;
+}
+
+#heading{
+    font-size: 2.5em;
+}
+#subheading{
+    font-size: 18px
+}
+
+#content1{
+    width: 90%;
+    margin: auto;
+}
+#content1 input {
+    padding-left: 10px;
+}
+
+form{
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid white;
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+form .box{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 9px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 0;
+}
+#option2 select{
+    padding-left: 10px;
+    width: 98.5%;
+    height: 2.7em;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+#content2{
+    margin-top: 10px;
+}
+#content2 textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+button{
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: rgb(18, 219, 78);
+    border: none;
+    color: rgb(255, 255, 2555);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    width: 900px;
+    margin-bottom: 10px;
+}
+
+textarea::placeholder{
+    font-size: 1.4em;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    width: 70%;
+    
+}
+input::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+}
+input .larger{
+    width: 20px;
+    height: 20px;
+}
+a{
+    padding-left: 45%;
+    font-size: 170%;
+    cursor: grab;
+    color: green;
+    text-decoration: none;
+}
